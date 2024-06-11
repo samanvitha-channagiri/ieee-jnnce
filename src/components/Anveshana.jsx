@@ -2,7 +2,7 @@ import React from "react";
 function Anveshana(){
 
     return(
-<div></div>
+<div><h1>Anveshana</h1></div>
     )
 }
 export default Anveshana
