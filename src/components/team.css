@@ -1,0 +1,45 @@
+.pro-pic {
+    height: 300px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .pro-pic:hover .card-img-overlay {
+    opacity: 1;
+  }
+  
+  .list-inline-item a {
+    font-size: 20px;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .list-inline-item a:hover {
+    color: #ff5722;
+  }
+  
+  .text-white {
+    color: #fff !important;
+  }
+  
+  .card {
+    border: none;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  

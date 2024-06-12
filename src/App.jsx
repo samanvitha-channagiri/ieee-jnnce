@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Anveshana from './components/Anveshana';
 import Aavishkar from './components/Aavishkar';
-
+import Team from './components/Team';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -18,7 +18,7 @@ function App() {
     <Navigation/>
       <Routes>
         <Route path="/home" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about" element={<Team />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/anveshana" element={<Anveshana />} />
         <Route path="/aavishkar" element={<Aavishkar />} />
