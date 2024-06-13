@@ -38,6 +38,9 @@ const Navigation = () => {
             <li className="nav-item">
               <Link className="nav-link" to="/aavishkar">Aavishkar</Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/contact">Contact</Link>
+            </li>
            <li className="nav-item dropdown">
               <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded={expanded}>
                 Events
