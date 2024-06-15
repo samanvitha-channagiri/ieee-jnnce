@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import logo from '../assets/logo.jpg';
 const Navigation = () => {
   const [expanded, setExpanded] = useState(false);
 
@@ -13,7 +14,15 @@ const Navigation = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">IEEE CSE</Link>
+      <img
+            src={logo}
+            alt="IEEE CSE Logo"
+            className="img-fluid rounded-circle me-2" // Apply rounded corners and margin
+            width="50" // Increase the size to make it more noticeable
+            height="50"
+          />
+
+        <Link className="navbar-brand" to="/"><span className="fw-bold text-highlight">IEEE JNNCE</span></Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -38,17 +47,10 @@ const Navigation = () => {
             <li className="nav-item">
               <Link className="nav-link" to="/aavishkar">Aavishkar</Link>
             </li>
-           <li className="nav-item dropdown">
-              <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded={expanded}>
-                Events
-              </Link>
-              <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton" >
-                <li><Link className="dropdown-item" to="/anveshana">Anveshana</Link></li>
-                <li><Link className="dropdown-item" to="/aavishkar">Aavishakar</Link></li>
-                <li><hr className="dropdown-divider" /></li>
-                <li><Link className="dropdown-item" to="/something-else">WorkShops</Link></li>
-              </ul>
+            <li className="nav-item">
+              <Link className="nav-link" to="/contact">Contact</Link>
             </li>
+          
 
            
             
