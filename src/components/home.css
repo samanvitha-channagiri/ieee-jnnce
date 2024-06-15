@@ -1,0 +1,51 @@
+/* Default styles */
+.responsive-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: '0 10px';
+  }
+  
+  .slider {
+    overflow: hidden;
+    width: '100%';
+  }
+  
+  .slides {
+    display: flex;
+    transition: 'all 0.5s ease';
+  }
+  
+  .slide {
+    flex-shrink: 0;
+    width: '100%';
+  }
+  
+  /* Styles for mobile view */
+  @media (max-width: 768px) {
+    .responsive-image {
+      width: 80px;
+      height: 80px;
+      margin: '0 5px';
+    }
+  
+    .slide img {
+      height: auto; /* Adjust height automatically */
+      object-fit: contain; /* Keep the aspect ratio */
+    }
+  }
+  
+  /* Styles for smaller mobile devices */
+  @media (max-width: 480px) {
+    .responsive-image {
+      width: 60px;
+      height: 60px;
+      margin: '0 5px';
+    }
+  
+    .slide img {
+      height: auto; /* Adjust height automatically */
+      object-fit: contain; /* Keep the aspect ratio */
+    }
+  }
+  
