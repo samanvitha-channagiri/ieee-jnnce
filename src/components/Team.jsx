@@ -59,7 +59,7 @@ const Team = () => {
         description: "",
         image: abhihj,
         socials: {
-          twitter: "#",
+          linkedin: "https://www.linkedin.com/in/abhishekhj",
           instagram: "#",
         }
       },{
@@ -68,7 +68,7 @@ const Team = () => {
         description: "",
         image: ananya,
         socials: {
-          twitter: "#",
+          twitter: "https://www.google.com/search?q=jnnce+logo&sca_esv=5a58adcc29de473b&rlz=1C1YQLS_enIN992IN992&sxsrf=ADLYWILKUIu3tzdJbmhwEP9_AcDux0mtxA%3A1718358784576&ei=ABNsZuLoIofh2roPz9iIqAY&ved=0ahUKEwji6M2n6dqGAxWHsFYBHU8sAmUQ4dUDCBA&uact=5&oq=jnnce+logo&gs_lp=Egxnd3Mtd2l6LXNlcnAiCmpubmNlIGxvZ28yBRAAGIAEMgUQABiABDILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMggQABiABBiiBDIIEAAYgAQYogQyCBAAGIAEGKIESPkbUNUHWOIYcAN4AZABAJgBtQKgAbMJqgEHMC40LjEuMbgBA8gBAPgBAZgCCKAC0QfCAgoQABiwAxjWBBhHwgILEAAYgAQYkQIYigXCAgYQABgWGB7CAgsQLhiABBjHARivAcICBBAjGCfCAgsQLhiABBixAxiDAZgDAOIDBRIBMSBAiAYBkAYIkgcHMy40LjAuMaAH6SU&sclient=gws-wiz-serp",
           instagram: "#",
         }
       },{
