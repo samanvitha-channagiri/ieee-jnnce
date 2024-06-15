@@ -36,7 +36,7 @@ const HomePage = () => {
         ))}
       </div>
       <h1>Welcome to the IEEE Homepage</h1>
-      <p>This is the homepage of the IEEE website where you can find information about our latest events, publications, and more.</p>
+      <p>IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity. IEEE and its members inspire a global community through its highly cited publications, conferences, technology standards, and professional and educational activities</p>
       {/* Image Slider */}
       <div className="slider" style={{ overflow: 'hidden', width: '100%' }}>
         <div className="slides" style={{ display: 'flex', transition: 'all 0.5s ease' }}>
@@ -46,6 +46,21 @@ const HomePage = () => {
             </div>
           ))}
         </div>
+      </div>
+      <br/>
+      <br/>
+      <h2>Quick facts about IEEE</h2>
+      <div class="formatted-text">
+        <ul>
+          
+          <li>Has 39 technical Societies and eight Technical Councils representing a wide range of IEEE technical interests
+          </li>
+          <li>Has more than 6 million documents in the IEEE Xplore® Digital Library</li>
+          <li>Has an active portfolio of 1,144 standards and more than 1,018 projects under development </li>
+          <li>Publishes more than 200 transactions, journals, and magazines </li>
+          <li>Sponsors more than 2,000 conferences and events in 190 countries while contributing over 4 million total conference papers to IEEE Xplore since 1936, with more than 200,000 new papers added annually </li>
+          
+        </ul>
       </div>
     </div>
   );

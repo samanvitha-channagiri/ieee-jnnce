@@ -7,44 +7,40 @@ import { Button, Card, Container, Row, Col } from 'react-bootstrap';
 const Event = () => {
   // Event details
   const eventTitle = "Anveshana";
-  const eventDescription = "Join us for our annual tech conference where we explore the latest trends in technology and innovation.";
-  const eventDate = "July 25, 2024";
-  const eventTime = "10:00 AM - 5:00 PM";
+  const eventDescription = (
+    <>
+    <h3>About</h3>
+    <p>Anveshana is an annual tech symposium that brings together the brightest minds in technology and innovation.</p>
+    <p>It is the word signifies the search of knowledge and experience.
+    Anveshana lets us to explore our creativity and thinking skills which helps us to have the holistic development of individual. Anveshana is the reflection of our commitment to innovation, passion for learning and our determination for making a difference.</p>
+    </>
+  );
+  const about=(
+    <>
+    <div>
+    <h3>About 2024</h3>
+    <p>Anveshana, an exhilarating event supported by the prestigious IEEE, recently
+unfolded within the vibrant halls of the Department of Computer Science and
+Engineering. Anveshana not only provided a platform for showcasing students'
+talents and ideas but also served as a catalyst for fostering interdisciplinary
+collaborations and pushing the boundaries of knowledge within the department.
+With IEEE's support and the enthusiastic participation of students, Anveshana
+emerged as a testament to the department's commitment to excellence and
+innovation in education and research.</p>
+
+</div>
+    </>
+  )
 
   // Slider details
   const images = ['image1.jpg', 'image2.jpg', 'image3.jpg']; // Replace with your image paths
   const [currentSlide, setCurrentSlide] = useState(0);
-
-  // Multiple competition winners
-  const winners = [
-    'Winner of Competition 1',
-    'Winner of Comp 2',
-    'Winner of Compen 3',
-    // ... add more winners as needed
-  ];
-  const [currentWinnerIndex, setCurrentWinnerIndex] = useState(0);
-
-  useEffect(() => {
-    const slideInterval = setInterval(() => {
-      setCurrentSlide((prevSlide) => (prevSlide + 1) % images.length);
-    }, 3000); // Change image every 3 seconds
-
-    const winnerInterval = setInterval(() => {
-      setCurrentWinnerIndex((prevIndex) => (prevIndex + 1) % winners.length);
-    }, 5000); // Change winner every 5 seconds
-
-    return () => {
-      clearInterval(slideInterval);
-      clearInterval(winnerInterval);
-    };
-  }, []);
-
+ 
   return (
     <div>
       <h1>{eventTitle}</h1>
       <p>{eventDescription}</p>
-      <p>Date: {eventDate}</p>
-      <p>Time: {eventTime}</p>
+      
       
       {/* Image Slider */}
       <div className="slider" style={{ overflow: 'hidden', width: '100%' }}>
@@ -56,6 +52,7 @@ const Event = () => {
           ))}
         </div>
       </div>
+    <p>{about}</p>
       <div className="text-center mt-4">
         <Link to="/winner">
           <Button variant="primary">Click here to see Winners</Button>
@@ -66,7 +63,7 @@ const Event = () => {
 
 
 
-      {/* Add more details and styling as needed */}
+     
     </div>
   );
 };
