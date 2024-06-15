@@ -1,4 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { Button, Card, Container, Row, Col } from 'react-bootstrap';
+
+
 
 const Event = () => {
   // Event details
@@ -52,24 +56,14 @@ const Event = () => {
           ))}
         </div>
       </div>
-
-     {/* Winner Slider */}
-<div className="winner-slider" style={{ overflow: 'hidden', width: '100%' }}>
-  <div className="winner-slides" style={{ display: 'flex', transition: 'all 0.5s ease', transform: `translateX(-${currentWinnerIndex * 100}%)` }}>
-    {winners.map((winner, index) => (
-      <div key={index} className="winner-slide" style={{ flexShrink: 0, width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-        <div style={{ textAlign: 'center' }}>
-          {/* Event Description */}
-          <p>{eventDescription}</p>
-          {/* Winner Name */}
-          <h3>{winner}</h3>
-        </div>
+      <div className="text-center mt-4">
+        <Link to="/winner">
+          <Button variant="primary">Click here to see Winners</Button>
+        </Link>
       </div>
-    ))}
-  </div>
-</div>
 
--
+
+
 
 
       {/* Add more details and styling as needed */}

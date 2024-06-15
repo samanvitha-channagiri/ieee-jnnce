@@ -9,6 +9,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Anveshana from './components/Anveshana';
 import Aavishkar from './components/Aavishkar';
 import Team from './components/Team';
+import Winner from './components/Winner';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -22,6 +23,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/anveshana" element={<Anveshana />} />
         <Route path="/aavishkar" element={<Aavishkar />} />
+        <Route path="/team" element={<Team />} />
+        <Route path="/winner" element={<Winner />} />
       </Routes>
     </BrowserRouter>
       <div>
