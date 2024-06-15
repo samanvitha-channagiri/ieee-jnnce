@@ -48,4 +48,10 @@
       object-fit: contain; /* Keep the aspect ratio */
     }
   }
+  .formatted-text {
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+    text-align:left
+  }
   
