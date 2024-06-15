@@ -1,9 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-const Winners = () => {
-  // Define an array of objects to store winners data
+const Winner = () => {
   const anveshana = [
     {
       event: 'Tech Quest',
@@ -57,12 +55,55 @@ const Winners = () => {
 
   return (
     <div className="container mt-4">
+      <style>
+        {`
+          .custom-card {
+            height: 280px; /* Increased card height for more content */
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: none; /* Remove default border */
+            border-radius: 10px; /* Smooth edges */
+            overflow: hidden; /* Avoid content overflow */
+            background-color: #f8f9fa; /* Bootstrap light grey background */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* Ensure all content fits */
+          }
+
+          .custom-card:hover {
+            transform: translateY(-5px); /* Slightly lift the card */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow effect */
+          }
+
+          .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* Space out card content */
+            padding: 15px;
+          }
+
+          .card-title {
+            font-size: 1.2em; /* Slightly larger title */
+            font-weight: bold;
+            margin-bottom: 10px; /* Space below title */
+          }
+
+          .list-group {
+            flex-grow: 1; /* Allow list to grow and take available space */
+            overflow: auto; /* Enable scrolling if content overflows */
+          }
+
+          .list-group-item {
+            background-color: #f8f9fa; /* Match card background */
+            border: none; /* Remove default list item borders */
+          }
+        `}
+      </style>
       <h2 className="text-center mb-4">Winners of Anveshana 2024</h2>
       <div className="row">
         {anveshana.map((competition, index) => (
-          <div className="col-lg-4 col-md-6 mb-4" key={index}>
-            <div className="card">
-              <div className="card-body">
+          <div className="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch" key={index}>
+            <div className="card custom-card w-100">
+              <div className="card-body d-flex flex-column">
                 <h5 className="card-title">{competition.event}</h5>
                 <ul className="list-group">
                   {competition.winners.map((winner, idx) => (
@@ -80,4 +121,4 @@ const Winners = () => {
   );
 };
 
-export default Winners;
+export default Winner;
