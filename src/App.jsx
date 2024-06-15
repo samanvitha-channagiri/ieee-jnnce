@@ -15,6 +15,17 @@ function App() {
 
   return (
     <>
+    <style>
+        {`
+          @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+          body {
+            font-family: 'Poppins', sans-serif; /* Apply Poppins font to the entire body */
+          }
+
+          /* Additional global styles can be added here */
+        `}
+      </style>
     <BrowserRouter>
     <Navigation/>
       <Routes>

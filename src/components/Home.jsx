@@ -4,11 +4,10 @@ import './home.css'; // Import the CSS file
 
 // Your component code remains the same, just replace inline styles with class names
 
-import a from '../assets/homelogo/grp.jpg'
-import b from '../assets/homelogo/ingu.jpg'
-import c from '../assets/homelogo/pin.jpg'
-import d from '../assets/homelogo/grp1.jpg'
-
+import a from '../assets/team members/abhihj.jpg';
+import b from '../assets/team members/abhiks.jpg';
+import c from '../assets/team members/ananya.jpg';
+import d from '../assets/team members/kp.jpg';
 // ... other imports
 import l from '../assets/homelogo/jnnce.jpg'
 import o from '../assets/homelogo/man.jpg'
@@ -43,7 +42,7 @@ const HomePage = () => {
         <div className="slides" style={{ display: 'flex', transition: 'all 0.5s ease' }}>
           {images.map((src, index) => (
             <div key={index} className="slide" style={{ flexShrink: 0, width: '100%', transform: `translateX(-${currentSlide * 100}%)` }}>
-              <img src={src} alt={`Slide ${index}`} style={{ width: '100%', height: '400px', objectFit: 'contain', display: 'block' }} />
+              <img src={src} alt={`Slide ${index}`} style={{ width: '100%', height: '550px', objectFit: 'contain', display: 'block' }} />
             </div>
           ))}
         </div>

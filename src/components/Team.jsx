@@ -1,86 +1,35 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from '../assets/logo.jpg'; 
-import abhihj from '../assets/team members/abhihj.jpg';
-import abhiks from '../assets/team members/abhiks.jpg';
-import ananya from '../assets/team members/ananya.jpg';
-import kp from '../assets/team members/kp.jpg';
-import karthik from '../assets/team members/karthik.jpg';
-import archana from '../assets/team members/archana.jpg';
-import chandan from '../assets/team members/chandan.jpg';
-
+import images from '../assets/team members/assets'; // Assuming you have defined this array in assets.js
 
 const Team = () => {
   // Sample data for team members
   const teamMembers = [
     {
-      name: "Abhishek",
-      title: "abhi@email.com",
-      description: "",
-      image: abhiks, // Replace with actual image URL or keep it as a placeholder
+      name: "Abhishek H J",
+      image: images[0], // Replace with actual image URL or keep it as a placeholder
       socials: {
-        twitter: "#",
-        instagram: "#",
+        linkedin: "https://www.linkedin.com/in/abhishekhj",
+        email: "abhishekhj@ieee.org"
       },
     },
     {
-      name: "Abhishek",
-      title: "abhi@gmail",
-      description: "",
-      image: karthik,
+      name: "Abhishek K S",
+      image: images[1], // Replace with correct image index
       socials: {
-        twitter: "#",
-        instagram: "#",
+        linkedin: "#", // Replace with actual LinkedIn profile link
+        email: "abhi@gmail.com"
       },
     },
     {
-      name: "Abhishek",
-      title: "abhi@gmail",
-      description: "",
-      image: kp,
+      name: "Archana B H",
+      image: images[3], // Replace with correct image index
       socials: {
-        twitter: "#",
-        instagram: "#",
+        linkedin: "#", // Replace with actual LinkedIn profile link
+        email: "abhi@gmail.com"
       },
     },
-    {
-      name: "Abhishek",
-      title: "abhi@gmail",
-      description: "",
-      image: archana,
-      socials: {
-        twitter: "#",
-        instagram: "#",
-      }
-    },
-    {
-        name: "Abhishek",
-        title: "abhishekhj@iee.org",
-        description: "",
-        image: abhihj,
-        socials: {
-          linkedin: "https://www.linkedin.com/in/abhishekhj",
-          instagram: "#",
-        }
-      },{
-        name: "Abhishek",
-        title: "abhi@gmail",
-        description: "",
-        image: ananya,
-        socials: {
-          twitter: "https://www.google.com/search?q=jnnce+logo&sca_esv=5a58adcc29de473b&rlz=1C1YQLS_enIN992IN992&sxsrf=ADLYWILKUIu3tzdJbmhwEP9_AcDux0mtxA%3A1718358784576&ei=ABNsZuLoIofh2roPz9iIqAY&ved=0ahUKEwji6M2n6dqGAxWHsFYBHU8sAmUQ4dUDCBA&uact=5&oq=jnnce+logo&gs_lp=Egxnd3Mtd2l6LXNlcnAiCmpubmNlIGxvZ28yBRAAGIAEMgUQABiABDILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMggQABiABBiiBDIIEAAYgAQYogQyCBAAGIAEGKIESPkbUNUHWOIYcAN4AZABAJgBtQKgAbMJqgEHMC40LjEuMbgBA8gBAPgBAZgCCKAC0QfCAgoQABiwAxjWBBhHwgILEAAYgAQYkQIYigXCAgYQABgWGB7CAgsQLhiABBjHARivAcICBBAjGCfCAgsQLhiABBixAxiDAZgDAOIDBRIBMSBAiAYBkAYIkgcHMy40LjAuMaAH6SU&sclient=gws-wiz-serp",
-          instagram: "#",
-        }
-      },{
-        name: "Abhishek",
-        title: "abhi@gmail",
-        description: "",
-        image: chandan,
-        socials: {
-          twitter: "#",
-          instagram: "#",
-        }
-      }
+    // Add more team members as needed
   ];
 
   return (
@@ -109,16 +58,14 @@ const Team = () => {
                 />
                 <div className="card-body text-center p-2">
                   <h5 className="card-title">{member.name}</h5>
-                  <h6 className="card-subtitle mb-2 text-muted">{member.title}</h6>
                   <div className="d-flex justify-content-center">
                     <a href={member.socials.linkedin} className="text-info mx-1" target="_blank" rel="noopener noreferrer">
                       <i className="fab fa-linkedin" style={{ fontSize: "1.2rem" }}></i>
                     </a>
-                    <a href={member.socials.instagram} className="text-danger mx-1" target="_blank" rel="noopener noreferrer">
-                      <i className="fab fa-instagram" style={{ fontSize: "1.2rem" }}></i>
+                    <a href={`mailto:${member.socials.email}`} className="text-danger mx-1">
+                      <i className="fas fa-envelope" style={{ fontSize: "1.2rem" }}></i>
                     </a>
                   </div>
-                  
                 </div>
               </div>
             </div>
