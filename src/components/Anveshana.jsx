@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 import a from '../assets/Anveshana/tech.jpg';
 import b from '../assets/homelogo/grp.jpg';
+import Anvesh from './AnveshanaEvent';
 
 const Event = () => {
   // Event details
   const eventTitle = "Anveshana";
   const eventDescription = (
-    <>
+    <>      
       
       <p>Anveshana is an annual tech symposium that brings together the brightest minds in technology and innovation.</p>
       <p>It signifies the search for knowledge and experience, allowing us to explore our creativity and thinking skills for holistic development. Anveshana reflects our commitment to innovation, passion for learning, and determination to make a difference.</p>
@@ -55,6 +56,10 @@ const Event = () => {
       </div>
 
       {about}
+      <br>
+      </br>
+      <h3>Events Conducted</h3>
+      <Anvesh/>
 
       <div className="text-center mt-4">
         <Link to="/winner">
