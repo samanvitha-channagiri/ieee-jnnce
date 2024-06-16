@@ -9,7 +9,7 @@ const Event = () => {
   const eventTitle = "Anveshana";
   const eventDescription = (
     <>
-      <h3>About</h3>
+      
       <p>Anveshana is an annual tech symposium that brings together the brightest minds in technology and innovation.</p>
       <p>It signifies the search for knowledge and experience, allowing us to explore our creativity and thinking skills for holistic development. Anveshana reflects our commitment to innovation, passion for learning, and determination to make a difference.</p>
     </>

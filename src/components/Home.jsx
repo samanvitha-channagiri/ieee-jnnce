@@ -12,7 +12,7 @@ import g from '../assets/homelogo/ban.jpg';
 import h from '../assets/homelogo/rastri.jpg';
 
 // Array of small rectangle images
-const limage = [l, o, g, h];
+const limage = [h, o, g, l];
 
 // Array of large slider images
 const images = [a, b, c, d];
@@ -31,9 +31,9 @@ const HomePage = () => {
   return (
     <div>
       {/* Small Rectangle Images */}
-      <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '18px' }}>
         {limage.map((src, index) => (
-          <img key={index} src={src} alt={`Small rectangle image ${index}`} style={{ width: '100px', height: '100px', objectFit: 'contain', margin: '0 20px' }} />
+          <img key={index} src={src} alt={`Small rectangle image ${index}`} style={{ width: '75px', height: '90px', objectFit: 'contain', margin: '0 20px' }} />
         ))}
       </div>
 
