@@ -1,69 +1,66 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Button, Card, Container, Row, Col } from 'react-bootstrap';
-
-
+import { Button } from 'react-bootstrap';
+import a from '../assets/Anveshana/tech.jpg';
+import b from '../assets/homelogo/grp.jpg';
 
 const Event = () => {
   // Event details
   const eventTitle = "Anveshana";
   const eventDescription = (
     <>
-    <h3>About</h3>
-    <p>Anveshana is an annual tech symposium that brings together the brightest minds in technology and innovation.</p>
-    <p>It is the word signifies the search of knowledge and experience.
-    Anveshana lets us to explore our creativity and thinking skills which helps us to have the holistic development of individual. Anveshana is the reflection of our commitment to innovation, passion for learning and our determination for making a difference.</p>
+      <h3>About</h3>
+      <p>Anveshana is an annual tech symposium that brings together the brightest minds in technology and innovation.</p>
+      <p>It signifies the search for knowledge and experience, allowing us to explore our creativity and thinking skills for holistic development. Anveshana reflects our commitment to innovation, passion for learning, and determination to make a difference.</p>
     </>
   );
-  const about=(
-    <>
-    <div>
-    <h3>About 2024</h3>
-    <p>Anveshana, an exhilarating event supported by the prestigious IEEE, recently
-unfolded within the vibrant halls of the Department of Computer Science and
-Engineering. Anveshana not only provided a platform for showcasing students'
-talents and ideas but also served as a catalyst for fostering interdisciplinary
-collaborations and pushing the boundaries of knowledge within the department.
-With IEEE's support and the enthusiastic participation of students, Anveshana
-emerged as a testament to the department's commitment to excellence and
-innovation in education and research.</p>
 
-</div>
+  const about = (
+    <>
+      <div>
+        <h3>About 2024</h3>
+        <p>Anveshana, supported by IEEE, unfolded within the vibrant halls of the Department of Computer Science and Engineering. It provided a platform for students to showcase their talents and ideas, fostering interdisciplinary collaborations and pushing the boundaries of knowledge. With IEEE's support and student participation, Anveshana emerged as a testament to the department's commitment to excellence and innovation in education and research.</p>
+      </div>
     </>
-  )
+  );
 
   // Slider details
-  const images = ['image1.jpg', 'image2.jpg', 'image3.jpg']; // Replace with your image paths
+  const images = [a, b]; // Replace with your image paths
   const [currentSlide, setCurrentSlide] = useState(0);
- 
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentSlide(prevSlide =>
+        prevSlide === images.length - 1 ? 0 : prevSlide + 1
+      );
+    }, 3000); // Change image every 3 seconds
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <div>
       <h1>{eventTitle}</h1>
-      <p>{eventDescription}</p>
-      
+      {eventDescription}
       
       {/* Image Slider */}
       <div className="slider" style={{ overflow: 'hidden', width: '100%' }}>
-        <div className="slides" style={{ display: 'flex', transition: 'all 0.5s ease' }}>
+        <div className="slides" style={{ display: 'flex', transition: 'transform 0.5s ease', transform: `translateX(-${currentSlide * 100}%)` }}>
           {images.map((src, index) => (
-            <div key={index} className="slide" style={{ flexShrink: 0, width: '100%', transform: `translateX(-${currentSlide * 100}%)` }}>
-              <img src={src} alt={`Slide ${index}`} style={{ width: '100%', height: '500px', objectFit: 'contain', display: 'block' }} />
+            <div key={index} className="slide" style={{ flexShrink: 0, width: '100%' }}>
+              <img src={src} alt={`Slide ${index}`} style={{ width: '100%', height: '300px', objectFit: 'contain' }} />
             </div>
           ))}
         </div>
       </div>
-    <p>{about}</p>
+
+      {about}
+
       <div className="text-center mt-4">
         <Link to="/winner">
           <Button variant="primary">Click here to see Winners</Button>
         </Link>
       </div>
-
-
-
-
-
-     
     </div>
   );
 };
