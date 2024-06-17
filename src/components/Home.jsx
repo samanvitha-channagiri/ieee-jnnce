@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './home.css'; // Import the CSS file
 
 // Importing images
-import anvesh from '../assets/AnveshanaEvent/Anveshana/Anvesh';
+import anvesh from '../assets/AnveshanaEvent/Anveshana/Event';
 
 import home from '../assets/homelogo/home';
 
