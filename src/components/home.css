@@ -51,6 +51,7 @@
 .formatted-text {
   font-weight: bold;
   font-size: 20px;
-  color: blue;
-  text-align:left
+  color:grey;
+  text-align:left;
+  align-items: center;
 }

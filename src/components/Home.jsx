@@ -2,20 +2,15 @@ import React, { useState, useEffect } from 'react';
 import './home.css'; // Import the CSS file
 
 // Importing images
-import a from '../assets/homelogo/grp.jpg';
-import b from '../assets/homelogo/ingu.jpg';
-import c from '../assets/homelogo/pin.jpg';
-import d from '../assets/homelogo/grp1.jpg';
-import l from '../assets/homelogo/jnnce.jpg';
-import o from '../assets/homelogo/man.jpg';
-import g from '../assets/homelogo/ban.jpg';
-import h from '../assets/homelogo/rastri.jpg';
+import anvesh from '../assets/AnveshanaEvent/Anveshana/Anvesh';
+
+import home from '../assets/homelogo/home';
 
 // Array of small rectangle images
-const limage = [h, o, g, l];
+const limage = [home[0],home[1],home[2],home[3]];
 
 // Array of large slider images
-const images = [a, b, c, d];
+const images = [anvesh[0],anvesh[1],anvesh[2],anvesh[3]];
 
 const HomePage = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
