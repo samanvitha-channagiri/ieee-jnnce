@@ -1,14 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
-import a from '../assets/AnveshanaEvent/Anveshana/tech.jpg';
-import b from '../assets/AnveshanaEvent/Anveshana/tech.jpg';
 
-import c from '../assets/AnveshanaEvent/t.jpg';
-import d from '../assets/AnveshanaEvent/p.jpg';
-import e from '../assets/AnveshanaEvent/f.jpg';
-
-import Anvesh from './AnveshanaEvent';
 
 const Event = () => {
   // Event details
@@ -31,7 +24,7 @@ const Event = () => {
   );
 
   // Slider details
-  const images = [a, b,c,d,e]; // Replace with your image paths
+  const images = [a, b]; // Replace with your image paths
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
