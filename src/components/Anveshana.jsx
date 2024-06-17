@@ -6,6 +6,8 @@ import Anvesh from './AnveshanaEvent';
 import a from '../assets/Anveshana/tech quest.jpg';
 import b from '../assets/Anveshana/pixel puzzle.jpg';
 import c from '../assets/Anveshana/front frezy.jpg';
+import d from '../assets/Anveshana/sharktank.jpg';
+import e from '../assets/Anveshana/dominate.jpg';
 
 const Event = () => {
   // Event details
@@ -28,7 +30,7 @@ const Event = () => {
   );
 
   // Slider details
-  const images = [a,b,c]; // Replace with your image paths
+  const images = [a,b,c,d,e]; // Replace with your image paths
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
