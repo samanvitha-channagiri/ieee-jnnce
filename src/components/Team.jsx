@@ -23,7 +23,7 @@ const Team = () => {
     },
     {
       name: "Aishwarya K P",
-      image: images[4],
+      image: images[2],
       socials: {
         linkedin: "https://www.linkedin.com/in/aishwarya-k-p-6b5426261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "aishwarya_kp@ieee.org",
@@ -39,7 +39,7 @@ const Team = () => {
     },
     {
       name: "Karthik B K",
-      image: images[3],
+      image: images[4],
       socials: {
         linkedin: "https://www.linkedin.com/in/karthik-b-k-3097b8254",
         email: "karthikbk@ieee.org",
@@ -47,7 +47,7 @@ const Team = () => {
     },
     {
       name: "Chandan S",
-      image: images[3],
+      image: images[5],
       socials: {
         linkedin: "https://www.linkedin.com/in/chandan-s184?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "chandans@ieee.org",
@@ -55,14 +55,14 @@ const Team = () => {
     },
     {
       name: "Ananya B",
-      image: images[3],
+      image: images[12],
       socials: {
         linkedin: "https://www.linkedin.com/in/ananya-basavaraj-91a297290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "ananyabasavaraj@ieee.org",
       },
     },{
       name: "Adarsh G S",
-      image: images[3],
+      image: images[13],
       socials: {
         linkedin: "https://www.linkedin.com/in/adarsh-gs-653a26311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "adarshgs9620@gmail.com ",
@@ -70,7 +70,7 @@ const Team = () => {
     },
     {
       name: "Chethankumar B S",
-      image: images[3],
+      image: images[14],
       socials: {
         linkedin: "https://www.linkedin.com/in/chethan-kumar-b-s-9ba285208?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "chethankumar@ieee.org",
@@ -78,7 +78,7 @@ const Team = () => {
     },
     {
       name: "Manasa S",
-      image: images[3],
+      image: images[15],
       socials: {
         linkedin: "https://www.linkedin.com/in/manasa-sg-869785265",
         email: "manasas@ieee.org",
@@ -86,7 +86,7 @@ const Team = () => {
     },
     {
       name: "Mala G B",
-      image: images[3],
+      image: images[16],
       socials: {
         linkedin: "https://www.linkedin.com/in/mala-g-b-0988b3262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "malagb@ieee.org",
@@ -94,7 +94,7 @@ const Team = () => {
     },
     {
       name: "Pranathi T ",
-      image: images[3],
+      image: images[17],
       socials: {
         linkedin: "https://www.linkedin.com/in/pranathi-t-a44686263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "pranathit@ieee.org",
@@ -102,7 +102,7 @@ const Team = () => {
     },
     {
       name: "Nanditha N Raj",
-      image: images[3],
+      image: images[18],
       socials: {
         linkedin: "https://www.linkedin.com/in/nanditha-n-raj-1a483a260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "nandithanraj07@gmail.com",
@@ -110,7 +110,7 @@ const Team = () => {
     },
     {
       name: "N Nisarga",
-      image: images[3],
+      image: images[19],
       socials: {
         linkedin: "https://www.linkedin.com/in/n-nisarga-893785265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "nnisarga@ieee.org",
@@ -119,7 +119,7 @@ const Team = () => {
     
     {
       name: "Priya B J ",
-      image: images[3],
+      image: images[20],
       socials: {
         linkedin: "https://www.linkedin.com/in/priya-b-j-370756289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "priyabj_1207@ieee.org",
@@ -128,7 +128,7 @@ const Team = () => {
     
     {
       name: "Rachitha B R",
-      image: images[3],
+      image: images[21],
       socials: {
         linkedin: "https://www.linkedin.com/in/rachitha-b-r-4911b2254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "rachithaieee@gmail.com",
@@ -136,7 +136,7 @@ const Team = () => {
     },
     {
       name: "Yuktha B",
-      image: images[3],
+      image: images[22],
       socials: {
         linkedin: "",
         email: "yukthajain_11@ieee.org",
@@ -144,7 +144,7 @@ const Team = () => {
     },
     {
       name: "Dhvaneeth P Banakar",
-      image: images[3],
+      image: images[23],
       socials: {
         linkedin: "https://www.linkedin.com/in/dhvaneeth-pbanakar-4640a6306?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "dhvaneethpb2004@gmail.com",
@@ -152,7 +152,7 @@ const Team = () => {
     },
     {
       name: "Pratheeksha D R",
-      image: images[3],
+      image: images[24],
       socials: {
         linkedin: "https://www.linkedin.com/in/pratheeksha-d-r-2662832a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "pratheekshadr@gmail.com",
@@ -160,10 +160,66 @@ const Team = () => {
     },
     {
       name: "Mizbah Kounain",
-      image: images[0],
+      image: images[25],
       socials: {
         linkedin: "",
         email: "mizbahkounain@gmail.com",
+      },
+    },  {
+      name: "Varsha P",
+      image: images[26],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },  {
+      name: "Dhruthi N",
+      image: images[27],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },  {
+      name: "Manoj M",
+      image: images[28],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },  {
+      name: "Darshan H Yavgal",
+      image: images[29],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },  {
+      name: "Vidya R",
+      image: images[30],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },  {
+      name: "Indupriya Shirisha",
+      image: images[31],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },,  {
+      name: "Bharath ",
+      image: images[32],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },,  {
+      name: "Yashas P",
+      image: images[33],
+      socials: {
+        linkedin: "",
+        email: "",
       },
     },
     // Add more team members as needed

@@ -34,7 +34,7 @@ const Event = () => {
       setCurrentSlide(prevSlide =>
         prevSlide === images.length - 1 ? 0 : prevSlide + 1
       );
-    }, 3000); // Change image every 3 seconds
+    }, 1000); // Change image every 3 seconds
 
     return () => clearInterval(interval);
   }, []);

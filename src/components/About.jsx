@@ -21,7 +21,7 @@ const About = () => {
               
               <Card.Text>
                 <strong>Dr. Poornima K M</strong> <br />
-                <strong>Email:</strong><br />
+                <strong><mail>kmpoornima@jnnce.ac.in</mail></strong><br />
                 
               </Card.Text>
               <Card.Text>
