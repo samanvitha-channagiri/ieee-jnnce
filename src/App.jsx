@@ -37,7 +37,7 @@ function App() {
         <Route path="/aavishkar" element={<Aavishkar />} />
         <Route path="/team" element={<Team />} />
         <Route path="/winner" element={<Winner />} />
-        <Route path="/" element={<Landing/>}/>
+        <Route path="/" element={<Home/>}/>
       </Routes>
     </BrowserRouter>
       <div>

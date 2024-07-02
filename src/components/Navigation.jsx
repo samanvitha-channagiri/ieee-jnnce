@@ -39,7 +39,7 @@ const Navigation = () => {
               <Link className="nav-link active" aria-current="page" to="/home">Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about">About</Link>
+              <Link className="nav-link " to="/about">About Us</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/anveshana">Anveshana</Link>
@@ -48,7 +48,7 @@ const Navigation = () => {
               <Link className="nav-link" to="/aavishkar">Avishkar</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/contact">Contact</Link>
+              <Link className="nav-link" to="/contact">Contact Us</Link>
             </li>
           
 

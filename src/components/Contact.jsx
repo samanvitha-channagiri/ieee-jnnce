@@ -32,8 +32,8 @@ const Contact = () => {
   };
 
   return (
-    <Container>
-      <h2>Contact Us</h2>
+    <Container className='my-4'>
+      <h1>Contact Us</h1>
       <Form>
         <Form.Group controlId="formName">
           <Form.Label>Name</Form.Label>

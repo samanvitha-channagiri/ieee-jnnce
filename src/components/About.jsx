@@ -6,7 +6,7 @@ import { Button, Card, Container, Row, Col } from 'react-bootstrap';
 
 const About = () => {
   return (
-    <Container className="my-5">
+    <Container className="my-4">
       <h1 className="text-center mb-4">About Us</h1>
       <Row>
         <Col xs={12} md={6} className="mb-4">
@@ -18,14 +18,14 @@ const About = () => {
               style={{ width: '200px', height: '200px', objectFit: 'cover' }} // Increased size
             />
             <div>
-              <Card.Title>Lecture 1</Card.Title>
+              
               <Card.Text>
-                <strong>Name:</strong> John Doe<br />
-                <strong>Email:</strong> john.doe@example.com<br />
-                <strong>Phone:</strong> (123) 456-7890
+                <strong>Dr. Poornima K M</strong> <br />
+                <strong>Email:</strong><br />
+                
               </Card.Text>
               <Card.Text>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.
+                Professor
               </Card.Text>
             </div>
           </Card>
@@ -39,14 +39,14 @@ const About = () => {
               style={{ width: '200px', height: '200px', objectFit: 'cover' }} // Increased size
             />
             <div>
-              <Card.Title>Lecture 2</Card.Title>
+            
               <Card.Text>
-                <strong>Name:</strong> Jane Smith<br />
-                <strong>Email:</strong> jane.smith@example.com<br />
-                <strong>Phone:</strong> (987) 654-3210
+                <strong>Mr. SathyaNarayana S</strong><br />
+                <strong>Email:</strong> <br />
+                
               </Card.Text>
               <Card.Text>
-                Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
+                Assistant Professor
               </Card.Text>
             </div>
           </Card>

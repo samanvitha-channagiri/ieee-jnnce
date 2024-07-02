@@ -2,8 +2,11 @@ import AHJ from './abhihj.jpg';
 import AKS from './abhiks.jpg';
 import AN from './ananya.jpg';
 import AR from './archana.jpg';
-import KP from './kp.jpg';
+
 import KAR from './karthik.jpg';
+import Adarsh from './Adarsh G S.jpg';
+import KP from './Aishwarya K P_.jpg';
+
 
 import a from '../AnveshanaEvent/Pixel.jpg';
 import b from '../AnveshanaEvent/Front.jpg';
@@ -15,6 +18,8 @@ import f from '../AnveshanaEvent/Dom.jpg';
 
 
 
+
+
   const image=[
     AHJ,
     AKS,
@@ -22,7 +27,8 @@ import f from '../AnveshanaEvent/Dom.jpg';
     AR,
     KP,
     KAR,
-    a,b,c,d,e,f
+    a,b,c,d,e,f,
+    
 ];
 
 export default image;
