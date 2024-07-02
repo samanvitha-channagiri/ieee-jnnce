@@ -45,7 +45,7 @@ const Navigation = () => {
               <Link className="nav-link" to="/anveshana">Anveshana</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/aavishkar">Aavishkar</Link>
+              <Link className="nav-link" to="/aavishkar">Avishkar</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/contact">Contact</Link>

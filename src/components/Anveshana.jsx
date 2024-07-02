@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 import Anvesh from './AnveshanaEvent';
-
 import anvesh from '../assets/AnveshanaEvent/Anveshana/Event';
 
 
@@ -64,7 +63,7 @@ const Event = () => {
 
       <div className="text-center mt-4">
         <Link to="/winner">
-          <Button variant="primary">Click here to see Winners</Button>
+          <Button variant="primary">Click here to see Winners of Anveshana 2k24</Button>
         </Link>
       </div>
     </div>

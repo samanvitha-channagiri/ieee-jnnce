@@ -2,21 +2,20 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Card, Container, Row, Col } from 'react-bootstrap';
 
-
 // Import your educational official images
 
 const About = () => {
   return (
     <Container className="my-5">
-      <h1 className="text-center mb-4">Contact Us</h1>
+      <h1 className="text-center mb-4">About Us</h1>
       <Row>
         <Col xs={12} md={6} className="mb-4">
           <Card className="d-flex flex-row align-items-center p-3">
             <img
-              src=''
+              src=""
               alt="Lecture 1"
               className="rounded-circle me-3"
-              style={{ width: '150px', height: '150px', objectFit: 'cover' }}
+              style={{ width: '200px', height: '200px', objectFit: 'cover' }} // Increased size
             />
             <div>
               <Card.Title>Lecture 1</Card.Title>
@@ -37,7 +36,7 @@ const About = () => {
               src=""
               alt="Lecture 2"
               className="rounded-circle me-3"
-              style={{ width: '150px', height: '150px', objectFit: 'cover' }}
+              style={{ width: '200px', height: '200px', objectFit: 'cover' }} // Increased size
             />
             <div>
               <Card.Title>Lecture 2</Card.Title>

@@ -32,7 +32,7 @@ const HomePage = () => {
         ))}
       </div>
 
-      <h1>Welcome to the IEEE Homepage</h1>
+      <h1>Welcome to the IEEE CSE JNNCE</h1>
       <p>
         IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit
         of humanity. IEEE and its members inspire a global community through its highly cited publications, conferences,
