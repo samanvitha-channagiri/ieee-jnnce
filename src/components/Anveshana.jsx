@@ -58,12 +58,12 @@ const Event = () => {
       {about}
       <br>
       </br>
-      <h3>Events Conducted</h3>
+      <h2 style={{ color: '#007bff'}}>Events Conducted</h2>
       <Anvesh/>
 
-      <div className="text-center mt-4">
+      <div className="text-center mt-4"><h5>Winners of Anveshana 2k24</h5>
         <Link to="/winner">
-          <Button variant="primary">Click here to see Winners of Anveshana 2k24</Button>
+          <Button variant="primary">Click Here</Button>
         </Link>
       </div>
     </div>

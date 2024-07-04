@@ -1,4 +1,3 @@
-
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -59,7 +58,7 @@ const Winner = () => {
       <style>
         {`
           .custom-card {
-            height: 280px; /* Increased card height for more content */
+            min-height: 280px; /* Ensure minimum height for content visibility */
             transition: transform 0.3s, box-shadow 0.3s;
             border: none; /* Remove default border */
             border-radius: 10px; /* Smooth edges */
@@ -72,7 +71,7 @@ const Winner = () => {
 
           .custom-card:hover {
             transform: translateY(-5px); /* Slightly lift the card */
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow effect */
+            box-shadow: 0 8px 16px rgba(0, 0, 255, 0.2); /* Light sky blue shadow effect */
           }
 
           .card-body {
@@ -85,7 +84,8 @@ const Winner = () => {
           .card-title {
             font-size: 1.2em; /* Slightly larger title */
             font-weight: bold;
-            margin-bottom: 10px; /* Space below title */
+            margin-bottom: 10px;
+             color: #007bff; /* Space below title */
           }
 
           .list-group {
@@ -99,13 +99,13 @@ const Winner = () => {
           }
         `}
       </style>
-      <h2 className="text-center mb-4">Winners of Anveshana 2024</h2>
+      <h2 className="text-center mb-4 ">Winners of Anveshana 2024</h2>
       <div className="row">
         {anveshana.map((competition, index) => (
           <div className="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch" key={index}>
             <div className="card custom-card w-100">
               <div className="card-body d-flex flex-column">
-                <h5 className="card-title">{competition.event}</h5>
+                <h5 className="card-title text-color-Primary">{competition.event}</h5>
                 <ul className="list-group">
                   {competition.winners.map((winner, idx) => (
                     <li className="list-group-item" key={idx}>

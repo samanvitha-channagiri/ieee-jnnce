@@ -22,7 +22,7 @@ const Contact = () => {
     const { name, email, message } = formData;
 
     // Prepare email content
-    const subject = 'Message from  IEEE CSE JNNCE Contact Form';
+    const subject = 'Message from IEEE CSE, JNNCE Contact Form';
     const mailtoUrl = `mailto:abhishekhj.ieee.org?subject=${encodeURIComponent(
       subject
     )}&body=${encodeURIComponent(`Name: ${name}\nMessage: ${message}`)}`;

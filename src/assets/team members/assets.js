@@ -1,4 +1,5 @@
-
+import sir from './Sir.jpg';
+import mam from './Mam.jpg'
 
 
 import a from '../AnveshanaEvent/Pixel.jpg';
@@ -37,6 +38,8 @@ import indhu from './ips.jpg';
 import bharath from './bg.jpg';
 import abhii from './ahj.jpg';
 import ma from './ma.jpg';
+import te from './te.jpg';
+import pu from './pu.jpg';
 
 
 
@@ -68,7 +71,7 @@ import ma from './ma.jpg';
     druthi,manoj,
     darshan,
     vidya,
-    indhu, bharath,yash
+    indhu, bharath,yash,sir,mam,te,pu
     
 ];
 

@@ -11,6 +11,7 @@ import Aavishkar from './components/Aavishkar';
 import Team from './components/Team';
 import Winner from './components/Winner';
 import Landing from './components/Landing';
+import Events from './components/EventGallery';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -38,6 +39,7 @@ function App() {
         <Route path="/team" element={<Team />} />
         <Route path="/winner" element={<Winner />} />
         <Route path="/" element={<Home/>}/>
+        <Route path="/event" element={<Events/>}/>
       </Routes>
     </BrowserRouter>
       <div>

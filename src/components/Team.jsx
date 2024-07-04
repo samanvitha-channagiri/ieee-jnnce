@@ -214,9 +214,23 @@ const Team = () => {
         linkedin: "",
         email: "",
       },
-    },,  {
+    },  {
       name: "Yashas P",
       image: images[33],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Tejashwini R H",
+      image: images[36],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Punya",
+      image: images[37],
       socials: {
         linkedin: "",
         email: "",
@@ -226,6 +240,7 @@ const Team = () => {
   ];
 
   return (
+    
     <div className=" bg-light">
       <Container>
         <Row className="justify-content-center my-4">

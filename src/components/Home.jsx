@@ -5,6 +5,7 @@ import './home.css'; // Import the CSS file
 import anvesh from '../assets/AnveshanaEvent/Anveshana/Event';
 
 import home from '../assets/homelogo/home';
+import EventGallery from './EventGallery';
 
 // Array of small rectangle images
 const limage = [home[0],home[1],home[2],home[3]];
@@ -28,11 +29,11 @@ const HomePage = () => {
       {/* Small Rectangle Images */}
       <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '18px' }}>
         {limage.map((src, index) => (
-          <img key={index} src={src} alt={`Small rectangle image ${index}`} style={{ width: '75px', height: '90px', objectFit: 'contain', margin: '0 20px' }} />
+          <img key={index} src={src} alt={`Small rectangle image ${index}`} style={{ width: '80px', height: '75px', objectFit: 'contain', margin: '0 10px' }} />
         ))}
       </div>
 
-      <h1>Welcome to the IEEE CSE JNNCE</h1>
+<h1>      <strong>Welcome to the IEEE CSE,JNNCE</strong></h1>
       <p>
         IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit
         of humanity. IEEE and its members inspire a global community through its highly cited publications, conferences,
@@ -50,9 +51,9 @@ const HomePage = () => {
         </div>
       </div>
 
-      <br />
-      <br />
-      <h2>Quick facts about IEEE</h2>
+    <br></br>
+   
+      <h2 >Quick facts about IEEE</h2>
       <div className="formatted-text">
         <ul>
           <li>Has 39 technical Societies and eight Technical Councils representing a wide range of IEEE technical interests</li>
@@ -62,6 +63,7 @@ const HomePage = () => {
           <li>Sponsors more than 2,000 conferences and events in 190 countries while contributing over 4 million total conference papers to IEEE Xplore since 1936, with more than 200,000 new papers added annually</li>
         </ul>
       </div>
+     
     </div>
   );
 };

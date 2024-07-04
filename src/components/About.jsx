@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Card, Container, Row, Col } from 'react-bootstrap';
-
-// Import your educational official images
+import photo1 from '../assets/jnnce.jpeg';
+import photo2 from '../assets/logo.jpg';
+import images from '../assets/team members/assets';
 
 const About = () => {
   return (
@@ -10,45 +11,27 @@ const About = () => {
       <h1 className="text-center mb-4">About Us</h1>
       <Row>
         <Col xs={12} md={6} className="mb-4">
-          <Card className="d-flex flex-row align-items-center p-3">
-            <img
-              src=""
-              alt="Lecture 1"
-              className="rounded-circle me-3"
-              style={{ width: '200px', height: '200px', objectFit: 'cover' }} // Increased size
-            />
-            <div>
-              
+          <Card className="text-center">
+            <Card.Img variant="top" src={images[35]} alt="Lecture 1" className="rounded-circle img-fluid" style={{ maxWidth: '200px', height: '180px', objectFit: 'cover', margin: 'auto' }} />
+            <Card.Body>
+              <Card.Title>Dr. Poornima K M</Card.Title>
               <Card.Text>
-                <strong>Dr. Poornima K M</strong> <br />
-                <strong><mail>kmpoornima@jnnce.ac.in</mail></strong><br />
-                
+                 <a href="mailto:kmpoornima@ieee.org">kmpoornima@ieee.org</a><br />
+               <p>Professor,Dept. of CS&E, JNNCE.</p>
               </Card.Text>
-              <Card.Text>
-                Professor
-              </Card.Text>
-            </div>
+            </Card.Body>
           </Card>
         </Col>
         <Col xs={12} md={6} className="mb-4">
-          <Card className="d-flex flex-row align-items-center p-3">
-            <img
-              src=""
-              alt="Lecture 2"
-              className="rounded-circle me-3"
-              style={{ width: '200px', height: '200px', objectFit: 'cover' }} // Increased size
-            />
-            <div>
-            
+          <Card className="text-center">
+            <Card.Img variant="top" src={images[34]} alt="Lecture 2" className="rounded-circle img-fluid" style={{ maxWidth: '200px', height: '180px', objectFit: 'cover', margin: 'auto' }} />
+            <Card.Body>
+              <Card.Title>Mr. SathyaNarayana S</Card.Title>
               <Card.Text>
-                <strong>Mr. SathyaNarayana S</strong><br />
-                <strong>Email:</strong> <br />
-                
+             <a href="mailto:Sathya.s@ieee.org">Sathya.s@ieee.org</a><br />
+             <p>Assistant Professor,Dept. of CS&E, JNNCE.</p>
               </Card.Text>
-              <Card.Text>
-                Assistant Professor
-              </Card.Text>
-            </div>
+            </Card.Body>
           </Card>
         </Col>
       </Row>
