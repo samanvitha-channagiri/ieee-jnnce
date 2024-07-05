@@ -57,7 +57,7 @@ const Aavishkar = () => {
 
       {about}
       <br>
-      </br><hr style={{border: "3px solid black"}}></hr><br></br>
+      </br><hr style={{ border: "2px solid rgb(5,5,255)" }} /><br></br>
       <h3 style={{ color: '#007bff'}}>Events</h3>
       <Anvesh/>
 

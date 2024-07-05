@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Card, Container, Row, Col } from 'react-bootstrap';
-import photo1 from '../assets/jnnce.jpeg';
-import photo2 from '../assets/logo.jpg';
 import images from '../assets/team members/assets';
 
 const About = () => {

@@ -58,9 +58,9 @@ const Navigation = () => {
             alt="IEEE CSE Logo"
             style={styles.logo}
           />
-          <Link to="/" style={styles.brandText}>
-            IEEE CSE
-          </Link>
+          <Link to="/" style={{ ...styles.brandText, textDecoration: 'none' }}>
+    IEEE SB
+</Link>
         </div>
         <button
           className="navbar-toggler"

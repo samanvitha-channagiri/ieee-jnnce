@@ -11,7 +11,7 @@ import EventGallery from './EventGallery';
 const limage = [home[0],home[1],home[2],home[3]];
 
 // Array of large slider images
-const images = [anvesh[0],anvesh[1],anvesh[2],anvesh[3]];
+const images = [anvesh[1],anvesh[2],anvesh[3]];
 
 const HomePage = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -27,13 +27,18 @@ const HomePage = () => {
   return (
     <div>
       {/* Small Rectangle Images */}
-      <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '15px' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '10px' }}>
         {limage.map((src, index) => (
           <img key={index} src={src} alt={`Small rectangle image ${index}`} style={{ width: '80px', height: '75px', objectFit: 'contain', margin: '10px 10px' }} />
         ))}
       </div>
+      <h6>National Education Society</h6>
+      <h3><strong>Jawaharlal Nehru New College of Engineering</strong></h3>
+      <h5>Department of Computer Science and Engineering</h5><hr style={{ border: "2px solid rgb(5,5,255)" }} />
 
-<h1>      <strong>Welcome to the IEEE CSE, JNNCE</strong></h1>
+      
+
+<h1>      <strong>Welcome to the IEEE SB</strong></h1>
       <p>
         IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit
         of humanity. IEEE and its members inspire a global community through its highly cited publications, conferences,
@@ -45,7 +50,7 @@ const HomePage = () => {
         <div className="slides" style={{ display: 'flex', transition: 'all 0.5s ease', transform: `translateX(-${currentSlide * 100}%)` }}>
           {images.map((src, index) => (
             <div key={index} className="slide" style={{ flexShrink: 0, width: '100%' }}>
-              <img src={src} alt={`Slide ${index}`} style={{ width: '100%', height: '400px', objectFit: 'contain', display: 'block' }} />
+              <img src={src} alt={`Slide ${index}`} style={{ width: '100%', height: '350px', objectFit: 'contain', display: 'block' }} />
             </div>
           ))}
         </div>

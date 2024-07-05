@@ -26,7 +26,7 @@ const Event = () => {
   );
 
   // Slider details
-  const images =anvesh; // Replace with your image paths
+  const images =[anvesh[0],anvesh[4],anvesh[5],anvesh[6],anvesh[7],anvesh[8],anvesh[9],anvesh[10]]; // Replace with your image paths
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
@@ -57,7 +57,7 @@ const Event = () => {
 
       {about}
       <br>
-      </br> <hr style={{border: "3px solid black"}}></hr><br></br>
+      </br> <hr style={{ border: "2px solid rgb(5,5,255)" }} /><br></br>
       <h2 style={{ color: '#007bff'}}>Events Conducted</h2>
       <Anvesh/>
 

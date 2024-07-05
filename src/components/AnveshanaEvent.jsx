@@ -52,7 +52,7 @@ const AnveshanaEvent = () => {
   };
 
   return (
-    <div className="anveshana-event container">
+    <div className="anveshana-event container ">
       <div className="row">
         {events.map(event => (
           <div key={event.id} className="col-12 col-sm-6 col-md-4 mb-4">
