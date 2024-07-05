@@ -17,7 +17,7 @@ const Event = () => {
   );
 
   const about = (
-    <>
+    <><br></br>
       <div className='my-2'>
         <h3>About 2024</h3>
         <p>Anveshana, supported by IEEE, unfolded within the vibrant halls of the Department of Computer Science and Engineering. It provided a platform for students to showcase their talents and ideas, fostering interdisciplinary collaborations and pushing the boundaries of knowledge. With IEEE's support and student participation, Anveshana emerged as a testament to the department's commitment to excellence and innovation in education and research.</p>
@@ -34,7 +34,7 @@ const Event = () => {
       setCurrentSlide(prevSlide =>
         prevSlide === images.length - 1 ? 0 : prevSlide + 1
       );
-    }, 1000); // Change image every 3 seconds
+    }, 1500); // Change image every 3 seconds
 
     return () => clearInterval(interval);
   }, []);
@@ -57,7 +57,7 @@ const Event = () => {
 
       {about}
       <br>
-      </br>
+      </br> <hr style={{border: "3px solid black"}}></hr><br></br>
       <h2 style={{ color: '#007bff'}}>Events Conducted</h2>
       <Anvesh/>
 

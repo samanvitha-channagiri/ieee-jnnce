@@ -11,22 +11,22 @@ const Aavishkar = () => {
   const eventDescription = (
     <>      
       
-      <p>Anveshana is an annual tech symposium that brings together the brightest minds in technology and innovation.</p>
-      <p>It signifies the search for knowledge and experience, allowing us to explore our creativity and thinking skills for holistic development. Anveshana reflects our commitment to innovation, passion for learning, and determination to make a difference.</p>
+      <p>Avishkaar is a premier annual technology symposium that gathers the most innovative minds to foster a culture of creativity and learning. It embodies the spirit of discovery, providing a platform for participants to delve into new realms of technology and push the boundaries of their imagination. Avishkaar stands as a testament to our unwavering commitment to advancing knowledge, nurturing passion, and driving positive change in the world.</p>
     </>
   );
 
   const about = (
     <>
+    <br></br>
       <div className='my-2'>
-        <h3>About 2024</h3>
-        <p>Anveshana, supported by IEEE, unfolded within the vibrant halls of the Department of Computer Science and Engineering. It provided a platform for students to showcase their talents and ideas, fostering interdisciplinary collaborations and pushing the boundaries of knowledge. With IEEE's support and student participation, Anveshana emerged as a testament to the department's commitment to excellence and innovation in education and research.</p>
+        <h3 className='my-6'>About 2024</h3>
+        <p>Avishkaar, supported by IEEE, unfolded within the vibrant halls of the Department of Computer Science and Engineering. It provided a platform for students to showcase their talents and ideas, fostering interdisciplinary collaborations and pushing the boundaries of knowledge. With IEEE's support and student participation, Avishkaar emerged as a testament to the department's commitment to excellence and innovation in education and research.</p>
       </div>
     </>
   );
 
   // Slider details
-  const images =[ar[6],ar[7],ar[8],ar[9],ar[10],ar[11]]; // Replace with your image paths
+  const images =[ar[6],ar[7],ar[8],ar[9],ar[10],ar[11],]; // Replace with your image paths
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
@@ -34,7 +34,7 @@ const Aavishkar = () => {
       setCurrentSlide(prevSlide =>
         prevSlide === images.length - 1 ? 0 : prevSlide + 1
       );
-    }, 1000); // Change image every 3 seconds
+    }, 1500); // Change image every 3 seconds
 
     return () => clearInterval(interval);
   }, []);
@@ -57,7 +57,7 @@ const Aavishkar = () => {
 
       {about}
       <br>
-      </br>
+      </br><hr style={{border: "3px solid black"}}></hr><br></br>
       <h3 style={{ color: '#007bff'}}>Events</h3>
       <Anvesh/>
 

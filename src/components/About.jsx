@@ -15,9 +15,9 @@ const About = () => {
             <Card.Img variant="top" src={images[35]} alt="Lecture 1" className="rounded-circle img-fluid" style={{ maxWidth: '200px', height: '180px', objectFit: 'cover', margin: 'auto' }} />
             <Card.Body>
               <Card.Title>Dr. Poornima K M</Card.Title>
-              <Card.Text>
+              <Card.Text className='text-center'>
                  <a href="mailto:kmpoornima@ieee.org">kmpoornima@ieee.org</a><br />
-               <p>Professor,Dept. of CS&E, JNNCE.</p>
+               <p className='text-center'>Professor,Dept. of CS&E, JNNCE.</p>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -27,9 +27,9 @@ const About = () => {
             <Card.Img variant="top" src={images[34]} alt="Lecture 2" className="rounded-circle img-fluid" style={{ maxWidth: '200px', height: '180px', objectFit: 'cover', margin: 'auto' }} />
             <Card.Body>
               <Card.Title>Mr. SathyaNarayana S</Card.Title>
-              <Card.Text>
+              <Card.Text className='text-center'>
              <a href="mailto:Sathya.s@ieee.org">Sathya.s@ieee.org</a><br />
-             <p>Assistant Professor,Dept. of CS&E, JNNCE.</p>
+             <p className='text-center'>Assistant Professor,Dept. of CS&E, JNNCE.</p>
               </Card.Text>
             </Card.Body>
           </Card>

@@ -20,7 +20,7 @@
   
   .event-item:hover {
     transform: translateY(-5px); /* Lift the card on hover */
-    box-shadow: 0 8px 16px rgba(0, 123, 255, 0.2); /* Light sky blue shadow on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 255, 0.4); /* Light sky blue shadow on hover */
   }
   
   .event-image {

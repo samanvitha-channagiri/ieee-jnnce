@@ -18,7 +18,7 @@ const Navigation = () => {
       backgroundColor: '#007bff',
       borderRadius: '15px',
       overflow: 'hidden',
-      padding: '5px 10px', 
+      padding: '5px 20px', 
       boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
     },
     logo: {
@@ -43,7 +43,9 @@ const Navigation = () => {
       textDecoration: 'underline',
     },
     navItem: {
-      marginBottom: '0', // Remove margin for items in the navbar
+      marginBottom: '0', 
+      marginRight: '20px'
+     
     },
   };
 
@@ -93,7 +95,7 @@ const Navigation = () => {
                 onMouseEnter={(e) => e.target.style.color = styles.navLinkHover.color}
                 onMouseLeave={(e) => e.target.style.color = styles.navLink.color}
               >
-                AboutUs
+                About Us
               </Link>
             </li>
             <li className="nav-item" style={styles.navItem}>
@@ -126,7 +128,7 @@ const Navigation = () => {
                 onMouseEnter={(e) => e.target.style.color = styles.navLinkHover.color}
                 onMouseLeave={(e) => e.target.style.color = styles.navLink.color}
               >
-                ContactUs
+                Contact Us
               </Link>
             </li>
             <li className="nav-item" style={styles.navItem}>

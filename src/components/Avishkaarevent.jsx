@@ -5,43 +5,43 @@ import images from '../assets/Avishkar2k24events/avish'; // Make sure this path 
 const events = [
   {
     id: 1,
-    title: "Organizers: Rachitha, Pratheeksha",
-    description: "Anveshana's Pixel Puzzles event offers an immersive platform for enthusiasts to delve into the intricate world of UI/UX interface development. With a blend of creativity and technical prowess, participants are challenged to unravel the complexities of pixel-perfect design. Guided by principles of user-centered design, participants navigate through the puzzle of user interfaces, crafting seamless digital experiences that captivate and engage.",
+    title: "Organizers: Rachitha B R,Pratheeksha D R,Mizbah,Dhvaneeth P,Ananya B,Bharath C",
+    description: "There will be 40 questions and the duration will be 60mins.●Top participants will be selected for 2nd Round. [Group Discussion]●Top participants will be selected for 3rd Round.ROUND-3 [HR or Interview]● Interview will be assessed based on technical and communication skill",
     image: images[0],
     registerLink:'https://forms.gle/tkhnhrzzEekAzSg6A'
   },
   {
     id: 2,
-    title: "Organizers: Aishwarya K P, Archana B H, Chandan S",
-    description: "Front End Frenzy, organized by Anveshana, thrusts participants into the dynamic realm of web development, honing their skills in HTML, CSS, and JavaScript. This exhilarating event presents a series of challenges focused on debugging and coding, requiring keen attention to detail and adept problem-solving abilities to achieve precise outputs. Front End Frenzy fosters a spirit of collaboration and innovation as participants navigate through the intricacies of front-end development, shaping the digital landscape with their creativity and technical proficiency.",
+    title: "Organizers: Aishwarya K P,Archana B H,Karthik B K,Abhishek K S,Abhishek H J",
+    description: "Blind Bot Battle as the name says, it consists of 2 parts, first part is the pattern printing using a software robot called Karel, introduced by Stanford UniversityThe second part is the blind coding where the coders are supposed to code with Monitor-off.",
     image: images[1],
     registerLink:'https://forms.gle/eSE21fyZaVFmJRjBA'
   },
   {
     id: 3,
-    title: "Organizers: Adarsh G S, Indu Priya Shirisha, Manoj M, Tejashwini R H, Vidya R",
-    description: "Tech Quest challenged participants to embark on a journey of exploration and learning, providing them with an opportunity to delve into the depths of technology and expand their knowledge.",
+    title: "Organizers: Chandan S,Adarsh G S,Chethan,Punya ",
+    description: " Just A Minute: Pick a topic from chits.10 mins for Prepartion. give speech on that topic.MukhaMukhi Darbar: A topic which covers a global concepted topic and Debate is conducted.",
     image: images[2],
     registerLink:'https://forms.gle/xw9pvyw4obS8zVSF8'
   },
   {
     id: 4,
-    title: "Organizers: Ananya B, Bharath C, Dhruthi N, Mizbah Kounain, Pratheeksha D R",
-    description: "Shark Tank Lite, inspired by the renowned television show, created a dynamic environment for aspiring entrepreneurs within the student community. Participants presented innovative ideas and solutions to a panel of judges, testing their entrepreneurial acumen and ability to pitch compelling business proposals.",
+    title: "Organizers: Mala G B,N Nisarga,Nanditha N Raj,Pranathi T,Manasa S ",
+    description: "After Registration all participants must join theWhatsApp group to get regular updates.Maximum number of participants per team:2.Round 1: Paper and pen(mode)There shall be questions on puzzles, riddles,Image rebus and other brain teasers.Total duration of the event is 60 minutes. Round 2: Jigsaw Puzzles Participants will solve a series of riddles and select the correct answer from the provides options",
     image: images[3],
     registerLink:'https://forms.gle/y4p9yvFqcLcmdfaf8'
   },
   {
     id: 5,
-    title: "Organizers: Mala G B, N Nisarga, Nanditha N Raj, Pranathi T, Priya B J, Yuktha B",
-    description: "Go-Get It added an adventurous twist to the technological extravaganza by introducing a treasure hunt game. This event not only required participants to unravel clues and solve puzzles but also put their teamwork and strategizing skills to the test.",
+    title: "Organizers: Indupriya,Vidya R,Thejaswini R H,Varsha P,Manoj M",
+    description: "Knock out round General and Technical related quizz.Software Application reviews related tomobile apps.",
     image: images[4],
     registerLink:'https://forms.gle/EHvL8j9qqCp6H5ceA'
   },
   {
     id: 6,
-    title: "Organizers: Darshan H Yavgal, Yashas P, Punya",
-    description: "JNNCE Dominate Arena sets the stage for intense battles in the virtual battleground of BGMI (Battlegrounds Mobile India). This electrifying event brings together gaming enthusiasts across the spectrum to showcase their skills, strategies, and teamwork in thrilling matches.",
+    title: "Organizers: Dhruthi N, Priya B J,Darshan H Y,Yashas P,Yuktha B",
+    description: "Per team two members- A quiz mostly based on entrepreneurship will be given, based on which top teams will be selected for their next level. Problem Solving- Per team two members- An entrepreneurial problem will given to the teams, to which they would have to propose aholistic solution.",
     image: images[5],
     registerLink:'https://forms.gle/c2AUsnMRJd4xw5566'
   }
@@ -68,7 +68,7 @@ const AnveshanaEvent = () => {
               </div>
               <div className="event-description mt-2">
               <a href={event.registerLink} className="btn btn-primary btn-block mb-2" target="_blank" rel="noopener noreferrer">Register</a><br></br> {/* Added Register button */}
-                <p><b>{event.title}</b></p>
+                <p style={{alignItems:'justify'}}><b>{event.title}</b></p>
                 <p>
                   {expanded[event.id] ? event.description : `${event.description.substring(0, 50)}...`}
                 </p>

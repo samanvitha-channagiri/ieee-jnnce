@@ -71,7 +71,7 @@ const Winner = () => {
 
           .custom-card:hover {
             transform: translateY(-5px); /* Slightly lift the card */
-            box-shadow: 0 8px 16px rgba(0, 0, 255, 0.2); /* Light sky blue shadow effect */
+            box-shadow: 0 8px 16px rgba(0, 0, 255, 0.4); /* Light sky blue shadow effect */
           }
 
           .card-body {

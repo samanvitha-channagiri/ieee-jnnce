@@ -27,13 +27,13 @@ const HomePage = () => {
   return (
     <div>
       {/* Small Rectangle Images */}
-      <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '18px' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '15px' }}>
         {limage.map((src, index) => (
-          <img key={index} src={src} alt={`Small rectangle image ${index}`} style={{ width: '80px', height: '75px', objectFit: 'contain', margin: '0 10px' }} />
+          <img key={index} src={src} alt={`Small rectangle image ${index}`} style={{ width: '80px', height: '75px', objectFit: 'contain', margin: '10px 10px' }} />
         ))}
       </div>
 
-<h1>      <strong>Welcome to the IEEE CSE,JNNCE</strong></h1>
+<h1>      <strong>Welcome to the IEEE CSE, JNNCE</strong></h1>
       <p>
         IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit
         of humanity. IEEE and its members inspire a global community through its highly cited publications, conferences,
