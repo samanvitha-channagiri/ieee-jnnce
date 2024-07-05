@@ -26,7 +26,7 @@ const Aavishkar = () => {
   );
 
   // Slider details
-  const images =[ar[6],ar[7],ar[8],ar[9],ar[10],ar[11],]; // Replace with your image paths
+  const images =[ar[12],ar[6],ar[7],ar[8],ar[9],ar[10],ar[11],]; // Replace with your image paths
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {

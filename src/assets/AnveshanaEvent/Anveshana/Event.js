@@ -8,10 +8,11 @@ import g from './f.jpg';
 import h from './go.jpg';
 import i from './d.jpg';
 import j from './s.jpg';
+import k from './anvesh.jpg';
 
 
 const anvesh=[
-    a,b,c,d,e,f,g,h,i,j
+    k,a,b,c,d,e,f,g,h,i,j
 ];
 
 export default anvesh;

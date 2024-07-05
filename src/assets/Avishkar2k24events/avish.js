@@ -12,8 +12,9 @@ import r from './t.jpg';
 import s from './rr.jpg';
 import t from './te.jpg';
 import u from './bb.jpg';
+import z from './avish.jpg';
 
 const avish=[
-    d,b,a,f,c,e,q,p,r,s,t,u,
+    d,b,a,f,c,e,q,p,r,s,t,u,z
 ];
 export default avish;
