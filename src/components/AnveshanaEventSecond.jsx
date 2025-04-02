@@ -6,7 +6,7 @@ const events = [
   {
     id: 1,
     title: "Organizers : Samanvitha C,Shwetha B H, Sharadhi H R, Srujana R Patel, Sinchana K G,Mohammad Sufyan Mizbah Kounain, Pratheeksha D R",
-    description: "Squid Game...",
+    description: "IEEE Anveshana's SQUID GAME event is an exciting challenge where participants progress through multiple levels, each featuring unique and engaging games that test their mathematical and logical reasoning. Each level presents a new set of interactive challenges, requiring strategic thinking, problem-solving skills, and teamwork to advance. As participants navigate through these levels, they must apply logic, precision, and adaptability to succeed. Designed to foster critical thinking and collaboration, SQUID GAME offers a fun and intellectually stimulating experience in a competitive yet enjoyable environment.",
     image: images[6]
   },
   {
