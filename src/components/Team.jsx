@@ -235,7 +235,217 @@ const Team = () => {
         linkedin: "",
         email: "",
       },
-    },
+    },{
+      name: "Mizbah",
+      image: images[38],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Dhvaneeth",
+      image: images[39],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Pratheeksha",
+      image: images[40],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Samanvitha C",
+      image: images[41],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Prajwal P",
+      image: images[42],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Mannan Faiz",
+      image: images[43],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Soorya Udupa KB",
+      image: images[44],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Harsha S",
+      image: images[45],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Darshan NV",
+      image: images[46],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Manjunath V Poojari",
+      image: images[47],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Nitish TR",
+      image: images[48],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Vivek V Shet",
+      image: images[49],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Leena",
+      image: images[50],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Mohammed Sufyan",
+      image: images[51],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Trupthi D R",
+      image: images[52],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Rakshitha R",
+      image: images[53],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Akshta T Rathod",
+      image: images[54],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Sunil V",
+      image: images[55],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Poorvika",
+      image: images[56],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Sinchana K G",
+      image: images[57],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Shwetha B Hosamane",
+      image: images[58],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Srujana R Patel",
+      image: images[59],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Sharadhi HR",
+      image: images[60],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Krupa UB",
+      image: images[61],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Rakshitha G",
+      image: images[62],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Manya G B",
+      image: images[63],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Harshitha",
+      image: images[64],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Sanjana S A",
+      image: images[65],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "Moulya R G",
+      image: images[66],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    },{
+      name: "",
+      image: images[67],
+      socials: {
+        linkedin: "",
+        email: "",
+      },
+    }
     // Add more team members as needed
   ];
 
