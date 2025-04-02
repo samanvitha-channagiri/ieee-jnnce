@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 import Anvesh from './AnveshanaEventSecond';
-import anvesh from '../assets/AnveshanaEvent/Anveshana/Event';
+import anvesh from '../assets/Anveshana2025events/images/event';
 
 
 const Event = () => {
@@ -26,7 +26,7 @@ const Event = () => {
   );
 
   // Slider details
-  const images =[anvesh[0],anvesh[4],anvesh[5],anvesh[6],anvesh[7],anvesh[8],anvesh[9],anvesh[10]]; // Replace with your image paths
+  const images =[anvesh[0],anvesh[1]]; // Replace with your image paths
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
@@ -41,8 +41,8 @@ const Event = () => {
 
   return (
     <div className='my-4'>
-      <h1 className='text-center mb-4'>{eventTitle}</h1>
-      {eventDescription}
+      {/* <h1 className='text-center mb-4'>{eventTitle}</h1>
+      {eventDescription} */}
       
       {/* Image Slider */}
       <div className="slider" style={{ overflow: 'hidden', width: '100%' }}>

@@ -72,7 +72,12 @@ import sanjana from './sanjana.jpg'
 import moulya from './mou.jpg'
 
 
-
+import squid from './squid.jpg'
+import blindbot from './blindbot.jpg'
+import codeverse from './codeverse.jpg'
+import placement from './placement.jpg'
+import techtalk from './techtalk.jpg'
+import pitchperfect from './pitchperfect.jpg'
 
 
 
@@ -133,7 +138,13 @@ import moulya from './mou.jpg'
     manya,
     harshitha,
     sanjana,
-    moulya
+    moulya,
+    squid,
+    techtalk,
+    codeverse,
+    blindbot,
+    pitchperfect,
+    placement
     
 ];
 
