@@ -40,6 +40,45 @@ import abhii from './ahj.jpg';
 import ma from './ma.jpg';
 import te from './te.jpg';
 import pu from './pu.jpg';
+import mizbah from './mizbah.jpg'
+import dhvaneeth from  './dhvaneeth.jpg'
+import pratheeksha from './pratheeksha.jpg'
+import samanvitha from './samanvitha.jpg'
+import prajwal from './prajwal.jpg'
+
+import mannan from './mannan.jpg'
+import soorya from './soorya.jpg'
+import harsha from './harsha.jpg'
+import darshannv from './darshannv.jpg'
+import manjunath from './manjunath.jpg'
+import nitish from './nitish.jpg'
+import vivek from './vivek.jpg'
+import leena from './leena.jpg'
+import sufyan from './sufyan.jpg'
+import trupthi from './trupthi.jpg'
+import rakshithaR from './rakshithaR.jpg'
+import akshata from './akshata.jpg'
+import sunil from './sunil.jpg'
+import poorvika from './poorvika.jpg'
+import sinchana from './sinchana.jpg'
+import shwetha from './shwetha.jpg'
+import srujana from './srujana.jpg'
+import sharadhi from './sharadhi.jpg'
+import krupa from './krupa.jpg'
+import rakshitha from './rakshitha.jpg'
+import manya from './manya.jpg'
+import harshitha from './harshitha.jpg'
+import sanjana from './sanjana.jpg'
+import moulya from './mou.jpg'
+
+
+import squid from './squid.jpg'
+import blindbot from './blindbot.jpg'
+import codeverse from './codeverse.jpg'
+import placement from './placement.jpg'
+import techtalk from './techtalk.jpg'
+import pitchperfect from './pitchperfect.jpg'
+
 
 
 
@@ -71,7 +110,41 @@ import pu from './pu.jpg';
     druthi,manoj,
     darshan,
     vidya,
-    indhu, bharath,yash,sir,mam,te,pu
+    indhu, bharath,yash,sir,mam,te,pu,mizbah,
+    dhvaneeth,
+    pratheeksha,
+    samanvitha,
+    prajwal,
+    mannan,
+    soorya,
+    harsha,
+    darshannv,
+    manjunath,
+    nitish,
+    vivek,
+    leena,
+    sufyan,
+    trupthi,
+    rakshithaR,
+    akshata,
+    sunil,
+    poorvika,
+    sinchana,
+    shwetha,
+    srujana,
+    sharadhi,
+    krupa,
+    rakshitha,
+    manya,
+    harshitha,
+    sanjana,
+    moulya,
+    squid,
+    techtalk,
+    codeverse,
+    blindbot,
+    pitchperfect,
+    placement
     
 ];
 

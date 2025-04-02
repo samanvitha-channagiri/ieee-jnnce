@@ -13,7 +13,7 @@ import s from './rr.jpg';
 import t from './te.jpg';
 import u from './bb.jpg';
 import z from './avish.jpg';
-
+import pitch from './pitch.jpg'
 const avish=[
     d,b,a,f,c,e,q,p,r,s,t,u,z
 ];

@@ -106,7 +106,18 @@ const Navigation = () => {
                 onMouseEnter={(e) => e.target.style.color = styles.navLinkHover.color}
                 onMouseLeave={(e) => e.target.style.color = styles.navLink.color}
               >
-                Anveshana
+                Anveshana 2024
+              </Link>
+            </li>
+            <li className="nav-item" style={styles.navItem}>
+              <Link
+                className="nav-link"
+                to="/anveshana2"
+                style={styles.navLink}
+                onMouseEnter={(e) => e.target.style.color = styles.navLinkHover.color}
+                onMouseLeave={(e) => e.target.style.color = styles.navLink.color}
+              >
+                Anveshana 2025
               </Link>
             </li>
             <li className="nav-item" style={styles.navItem}>
