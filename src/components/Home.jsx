@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './home.css'; // Import the CSS file
+import playstore from '../assets/feature graphic.png'
 
 // Importing images
 import anvesh from '../assets/AnveshanaEvent/Anveshana/Event';
@@ -64,7 +65,23 @@ const HomePage = () => {
       </div>
 
     <br></br>
-   
+    {/* Google Play Store Download Section */}
+<div style={{ textAlign: 'center', marginTop: '20px' }}>
+    <img src={playstore} alt="IEEE JNNCE" style={{ width: '80%', height: 'auto', borderRadius: '10px', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)' }} />
+    <br />
+    <h3 style={{ fontSize: '20px', fontWeight: 'bold', color: '#333', marginTop: '15px' }}>
+      Stay connected, stay ahead! Get the IEEE JNNCE app today! 
+    </h3>
+    
+    <a href="https://play.google.com/store/apps/details?id=com.abhi.IEEE" target="_blank" rel="noopener noreferrer">
+      <button style={{ marginTop: '10px', padding: '10px 20px', fontSize: '16px', backgroundColor: '#007BFF', color: 'white', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>
+        Downlaod now
+      </button>
+    </a>
+</div>
+<br />
+
+
       <h2 >Quick facts about IEEE</h2>
       <div className="formatted-text">
         <ul>
