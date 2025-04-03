@@ -26,7 +26,7 @@ const Event = () => {
   );
 
   // Slider details
-  const images =[anvesh[0],anvesh[1]]; // Replace with your image paths
+  const images =[anvesh[0]]; // Replace with your image paths
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
