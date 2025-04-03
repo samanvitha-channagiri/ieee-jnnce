@@ -9,6 +9,11 @@ import EventGallery from './EventGallery';
 
 // Array of small rectangle images
 const limage = [home[0],home[1],home[2],home[3]];
+const imageObj=[{name:{img:home[0],link:"https://www.nes-shimoga.org/"}},
+{name:{img:home[1],link:"https://ieee-mangalore.org/"}},
+{name:{img:home[2],link:"https://www.ieee.org/bangalore"}},
+{name:{img:home[3],link:"https://jnnce.ac.in/jnndemo/"}}
+];
 
 // Array of large slider images
 const images = [anvesh[1],anvesh[2],anvesh[3]];
@@ -28,8 +33,10 @@ const HomePage = () => {
     <div>
       {/* Small Rectangle Images */}
       <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '10px' }}>
-        {limage.map((src, index) => (
-          <img key={index} src={src} alt={`Small rectangle image ${index}`} style={{ width: '80px', height: '75px', objectFit: 'contain', margin: '10px 10px' }} />
+        {imageObj.map((src, index) => (
+        <a href={src.name.link} target="_blank">
+            <img key={index} src={src.name.img} alt={`Small rectangle image ${index}`} style={{ width: '80px', height: '75px', objectFit: 'contain', margin: '10px 10px' }} />
+        </a>
         ))}
       </div>
       <h6>National Education Society</h6>
