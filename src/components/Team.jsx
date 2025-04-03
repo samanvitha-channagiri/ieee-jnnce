@@ -3,6 +3,7 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import images from '../assets/team members/assets'; // Adjust the path to your images
 
+
 const Team = () => {
   const teamMembers1 = [
     {
@@ -555,6 +556,7 @@ const Team = () => {
           ))}
         </Row>
       </Container>
+      <hr />
       <Container>
         <Row className="justify-content-center my-4">
           <Col md={7} className="text-center">
