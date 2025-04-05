@@ -1,7 +1,7 @@
 import images from './assets'
 
 const teamMembers2=[{
-    name: "Mizbah",
+    name: "Mizbah Kounain",
     image: images[38],
     info:"",
     socials: {
@@ -9,7 +9,7 @@ const teamMembers2=[{
       email: "mizbahkounain@gmail.com ",
     },
   },{
-    name: "Dhvaneeth",
+    name: "Dhvaneeth P Banakar",
     image: images[39],
     info:"",
     socials: {
@@ -17,7 +17,7 @@ const teamMembers2=[{
       email: "dhvaneethpb2004@gmail.com ",
     },
   },{
-    name: "Pratheeksha",
+    name: "Pratheeksha D R",
     image: images[40],
     info:"",
     socials: {
